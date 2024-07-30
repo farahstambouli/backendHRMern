@@ -11,7 +11,7 @@ const dotenv = require('dotenv');
 //this is needed when the .env is in another file or else it wont work
 dotenv.config({ path: path.join(__dirname, '.env') });
 
-const db = process.env.MONGO_URL;
+const db = process.env.MONGO_URL ;
 
 const connect = async ()=>{
     try{
